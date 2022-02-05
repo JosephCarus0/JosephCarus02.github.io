@@ -1,0 +1,56 @@
+{
+  "name": "Fibroblasts_Alone",
+  "shortLabel": "Fibroblasts_Alone",
+  "exprMatrix": "counts_exprMatrix.tsv.gz",
+  "matrices": [
+    {
+      "label": "counts",
+      "fileName": "counts_exprMatrix.tsv.gz"
+    },
+    {
+      "label": "data",
+      "fileName": "data_exprMatrix.tsv.gz"
+    },
+    {
+      "label": "scale",
+      "fileName": "scale_exprMatrix.tsv.gz"
+    }
+  ],
+  "tags": [
+    "10x"
+  ],
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "RNA_snn_res.0.1",
+  "labelField": "RNA_snn_res.0.1",
+  "enumFields": [
+    "orig.ident",
+    "vireo",
+    "vireo_barcodes",
+    "Multi",
+    "Multi_barcodes",
+    "DONOR",
+    "DONOR_NAF_CAF",
+    "NAF_CAF",
+    "RNA_snn_res.0.1",
+    "seurat_clusters",
+    "Cluster"
+  ],
+  "markers": [
+    {
+      "file": "/Volumes/Tony/Cellbrowser/Fib/markers.tsv",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "coords": [
+    {
+      "file": "/Volumes/Tony/Cellbrowser/Fib/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    },
+    {
+      "file": "/Volumes/Tony/Cellbrowser/Fib/pca.coords.tsv",
+      "shortLabel": "Seurat pca"
+    }
+  ],
+  "inDir": ""
+}

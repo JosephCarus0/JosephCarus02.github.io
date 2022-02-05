@@ -1,0 +1,53 @@
+{
+  "name": "Epi",
+  "shortLabel": "Epi",
+  "exprMatrix": "counts_exprMatrix.tsv.gz",
+  "matrices": [
+    {
+      "label": "counts",
+      "fileName": "counts_exprMatrix.tsv.gz"
+    },
+    {
+      "label": "data",
+      "fileName": "data_exprMatrix.tsv.gz"
+    },
+    {
+      "label": "scale",
+      "fileName": "scale_exprMatrix.tsv.gz"
+    }
+  ],
+  "tags": [
+    "10x"
+  ],
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "seurat_clusters",
+  "labelField": "seurat_clusters",
+  "enumFields": [
+    "orig.ident",
+    "Assignment",
+    "Sample",
+    "RNA_snn_res.0.21",
+    "seurat_clusters",
+    "RNA_snn_res.0.2",
+    "CellType",
+    "Cluster"
+  ],
+  "markers": [
+    {
+      "file": "/Volumes/Tony/Cellbrowser/coEpi/markers.tsv",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "coords": [
+    {
+      "file": "/Volumes/Tony/Cellbrowser/coEpi/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    },
+    {
+      "file": "/Volumes/Tony/Cellbrowser/coEpi/pca.coords.tsv",
+      "shortLabel": "Seurat pca"
+    }
+  ],
+  "inDir": ""
+}

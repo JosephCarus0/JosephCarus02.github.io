@@ -1,0 +1,43 @@
+{
+  "name": "",
+  "shortLabel": "All Datasets",
+  "abstract": "This is a local Cell Browser installation, without dataset hierarchies.\n            Please select a dataset from the list on the left.<p>\n            <p>\n            See the documentation on <a target=_blank href=\"https://cellbrowser.readthedocs.io/collections.html\">\n            dataset hierarchies</a>.\n\n        ",
+  "datasets": [
+    {
+      "shortLabel": "Fibroblast_cocultured",
+      "name": "Fibroblast_cocultured",
+      "md5": "45e7e81444",
+      "tags": [
+        "10x"
+      ],
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 17350
+    },
+    {
+      "shortLabel": "Fibroblasts_Alone",
+      "name": "Fibroblasts_Alone",
+      "md5": "c21f8da865",
+      "tags": [
+        "10x"
+      ],
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 20115
+    },
+    {
+      "shortLabel": "Epi",
+      "name": "Epi",
+      "md5": "2d22da8d38",
+      "tags": [
+        "10x"
+      ],
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 8415
+    }
+  ]
+}

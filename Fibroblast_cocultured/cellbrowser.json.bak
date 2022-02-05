@@ -1,0 +1,52 @@
+{
+  "name": "Fibroblast_cocultured",
+  "shortLabel": "Fibroblast_cocultured",
+  "exprMatrix": "counts_exprMatrix.tsv.gz",
+  "matrices": [
+    {
+      "label": "counts",
+      "fileName": "counts_exprMatrix.tsv.gz"
+    },
+    {
+      "label": "data",
+      "fileName": "data_exprMatrix.tsv.gz"
+    },
+    {
+      "label": "scale",
+      "fileName": "scale_exprMatrix.tsv.gz"
+    }
+  ],
+  "tags": [
+    "10x"
+  ],
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "RNA_snn_res.0.1",
+  "labelField": "RNA_snn_res.0.1",
+  "enumFields": [
+    "orig.ident",
+    "vireo",
+    "vireo_barcodes",
+    "DONOR",
+    "RNA_snn_res.0.1",
+    "seurat_clusters",
+    "Cluster"
+  ],
+  "markers": [
+    {
+      "file": "/Volumes/Tony/Cellbrowser/coFib/markers.tsv",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "coords": [
+    {
+      "file": "/Volumes/Tony/Cellbrowser/coFib/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    },
+    {
+      "file": "/Volumes/Tony/Cellbrowser/coFib/pca.coords.tsv",
+      "shortLabel": "Seurat pca"
+    }
+  ],
+  "inDir": ""
+}

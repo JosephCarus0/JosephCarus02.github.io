@@ -1,0 +1,472 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/Volumes/Tony/Cellbrowser/coEpi/meta.tsv",
+      "md5": "bf0d357178",
+      "size": 841667,
+      "mtime": "2022-02-05 05:27:58"
+    },
+    "outMeta": {
+      "fname": "/Users/josephcaruso/public_html/cb/Epi/meta.tsv",
+      "md5": "77398c3a66",
+      "size": 749091,
+      "mtime": "2022-02-05 16:59:01"
+    },
+    "inMatrix": {
+      "fname": "/Volumes/Tony/Cellbrowser/coEpi/counts_exprMatrix.tsv.gz",
+      "md5": "5d13f13018",
+      "size": 20629033,
+      "mtime": "2022-02-05 05:24:23"
+    },
+    "outMatrix": {
+      "fname": "/Users/josephcaruso/public_html/cb/Epi/exprMatrix.tsv.gz",
+      "md5": "5d13f13018",
+      "size": 20629033,
+      "mtime": "2022-02-05 16:59:02"
+    },
+    "desc": {
+      "fname": "desc.conf",
+      "md5": "878d768860",
+      "size": 2678,
+      "mtime": "2022-02-05 05:30:50"
+    },
+    "conf": {
+      "fname": "/Volumes/Tony/Cellbrowser/coEpi/cellbrowser.conf",
+      "md5": "059dc7fb5b",
+      "size": 1241,
+      "mtime": "2022-02-05 16:05:19"
+    }
+  },
+  "sampleCount": 8415,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 18,
+      "diffValCount": 8415,
+      "md5": "469c5618da"
+    },
+    {
+      "name": "nCount_RNA",
+      "label": "nCount_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 5159,
+      "md5": "783ebe8368"
+    },
+    {
+      "name": "nFeature_RNA",
+      "label": "nFeature_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 2413,
+      "md5": "442e8d9ef9"
+    },
+    {
+      "name": "Assignment",
+      "label": "Assignment",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Unassigned",
+          1677
+        ],
+        [
+          "CMO304",
+          1480
+        ],
+        [
+          "CMO301",
+          1377
+        ],
+        [
+          "CMO303",
+          1202
+        ],
+        [
+          "CMO302",
+          905
+        ],
+        [
+          "CMO305",
+          847
+        ],
+        [
+          "CMO307",
+          470
+        ],
+        [
+          "CMO308",
+          457
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 8,
+      "md5": "41385078af"
+    },
+    {
+      "name": "Sample",
+      "label": "Sample",
+      "type": "enum",
+      "valCounts": [
+        [
+          "L08_Epi+L11_NAF",
+          1677
+        ],
+        [
+          "L08_Epi+L10_CAF",
+          1480
+        ],
+        [
+          "L08_Epi+L09_NAF",
+          1377
+        ],
+        [
+          "L08_Epi+L10_NAF",
+          1202
+        ],
+        [
+          "L08_Epi+L09_CAF",
+          905
+        ],
+        [
+          "L08_Epi+L11_CAF",
+          847
+        ],
+        [
+          "L08_Epi",
+          470
+        ],
+        [
+          "L08_Epi+EGF",
+          457
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 8,
+      "md5": "e2d9a46348"
+    },
+    {
+      "name": "percentmt",
+      "label": "percent.mt",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 8342,
+      "md5": "c5538b59ef"
+    },
+    {
+      "name": "RNA_snn_res021",
+      "label": "RNA_snn_res.0.21",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          3160
+        ],
+        [
+          "1",
+          1388
+        ],
+        [
+          "2",
+          986
+        ],
+        [
+          "3",
+          873
+        ],
+        [
+          "4",
+          802
+        ],
+        [
+          "5",
+          785
+        ],
+        [
+          "6",
+          234
+        ],
+        [
+          "7",
+          187
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 8,
+      "md5": "52becb74f0"
+    },
+    {
+      "name": "seurat_clusters",
+      "label": "seurat_clusters",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          3158
+        ],
+        [
+          "1",
+          1387
+        ],
+        [
+          "2",
+          987
+        ],
+        [
+          "3",
+          873
+        ],
+        [
+          "4",
+          801
+        ],
+        [
+          "5",
+          788
+        ],
+        [
+          "6",
+          234
+        ],
+        [
+          "7",
+          187
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 8,
+      "md5": "3c6a02b498"
+    },
+    {
+      "name": "RNA_snn_res02",
+      "label": "RNA_snn_res.0.2",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          3158
+        ],
+        [
+          "1",
+          1387
+        ],
+        [
+          "2",
+          987
+        ],
+        [
+          "3",
+          873
+        ],
+        [
+          "4",
+          801
+        ],
+        [
+          "5",
+          788
+        ],
+        [
+          "6",
+          234
+        ],
+        [
+          "7",
+          187
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 8,
+      "md5": "66888592d4"
+    },
+    {
+      "name": "CellType",
+      "label": "CellType",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Secretory (Club-like)",
+          3158
+        ],
+        [
+          "Secretory (Goblet-like)",
+          1387
+        ],
+        [
+          "Squamous",
+          987
+        ],
+        [
+          "Ciliated",
+          873
+        ],
+        [
+          "Basal",
+          801
+        ],
+        [
+          "Secretory",
+          788
+        ],
+        [
+          "Ciliated (proliferating)",
+          234
+        ],
+        [
+          "Basal (proliferating",
+          187
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 8,
+      "md5": "520a57115a"
+    },
+    {
+      "name": "Cluster",
+      "label": "Cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          3158
+        ],
+        [
+          "1",
+          1387
+        ],
+        [
+          "2",
+          987
+        ],
+        [
+          "3",
+          873
+        ],
+        [
+          "4",
+          801
+        ],
+        [
+          "5",
+          788
+        ],
+        [
+          "6",
+          234
+        ],
+        [
+          "7",
+          187
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 8,
+      "md5": "44a7bb6964"
+    }
+  ],
+  "matrixArrType": "Uint32",
+  "labelField": "seurat_clusters",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat umap",
+      "md5": "5c39c08348",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "textFname": "Seurat_umap.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "Seurat pca",
+      "md5": "f735848db3",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "textFname": "Seurat_pca.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "0": [
+      "SFTPB",
+      "LTF",
+      "SCGB3A1",
+      "RNASE1",
+      "FABP5"
+    ],
+    "1": [
+      "LYPD2",
+      "SERPINB3",
+      "VMO1",
+      "SLURP2",
+      "AQP5"
+    ],
+    "2": [
+      "PENK",
+      "KRT15",
+      "DST",
+      "MMP1",
+      "MT2A"
+    ],
+    "3": [
+      "C20orf85",
+      "C9orf24",
+      "CRIP1",
+      "RSPH1",
+      "CAPS"
+    ],
+    "4": [
+      "S100A2",
+      "SERPINB4",
+      "SERPINB13",
+      "KRT6A",
+      "CSTA"
+    ],
+    "5": [
+      "CEACAM6",
+      "HPGD",
+      "S100P",
+      "IDO1",
+      "STRA6"
+    ],
+    "6": [
+      "HES6",
+      "CDC20B",
+      "FOXJ1",
+      "CDK1",
+      "NEK2"
+    ],
+    "7": [
+      "MFSD1",
+      "HLA-DQB1",
+      "GFPT1",
+      "RRBP1",
+      "TENT5C"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "name": "Epi",
+  "shortLabel": "Epi",
+  "tags": [
+    "10x"
+  ],
+  "clusterField": "seurat_clusters",
+  "md5": "2d22da8d38"
+}
